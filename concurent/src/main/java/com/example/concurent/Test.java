@@ -2,7 +2,7 @@ package com.example.concurent;
 
 
 public class Test {
-    private static long count = 0;
+    private static  long count = 0;
     private void add10K() {
         int idx = 0;
         while(idx++ < 10000) {
@@ -28,7 +28,9 @@ public class Test {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(calc());
+//        System.out.println(calc());
+
+        System.out.println(3/2);
 
     }
 }

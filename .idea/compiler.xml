@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="concurent" />
+        <module name="springAdvice" />
+        <module name="leetcode" />
+        <module name="springRetry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="concurent" target="1.8" />
+      <module name="javaconcurent" target="11" />
+      <module name="leetcode" target="8" />
+      <module name="springAdvice" target="1.8" />
+      <module name="springRetry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="concurent" options="-parameters" />
+      <module name="javaconcurent" options="-parameters" />
+      <module name="springAdvice" options="-parameters" />
+      <module name="springRetry" options="-parameters" />
+    </option>
+  </component>
+</project>
